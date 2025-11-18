@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(0, 162, 255);
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+
+#imgp{
+    border-radius: 20px;
+}
+
+#imgp:hover{
+    border-radius: 20px;
+    box-shadow: 5px  5px  5px blue;
+    transition-duration: 0.5s;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+#botaoMaria{
+    background-color:rgb(127, 238, 255);
+    border-radius: 5px;
+    height: 25px;
+    width: 150px;
+}
+#botao:hover{
+    background-color: blue;
+    color: white;
+    box-shadow: 2px 2px 2px rgb(170, 232, 248);
+    transition-duration: 0.1s;
+}
+
+.desativa{
+    display: none;
+}
+.ddsativa{
+    display: none;
+}
